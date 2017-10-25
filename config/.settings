@@ -1,0 +1,17 @@
+{
+    "projectName": "apex-bootcamp-october2017",
+    "username": "lane.colyer@atginfo.com.developer",
+    "id": "7e04d5b0-b5df-11e7-ac95-430ae7e10146",
+    "namespace": "",
+    "orgType": "developer",
+    "loginUrl": "https://login.salesforce.com/",
+    "instanceUrl": "https://na73.salesforce.com",
+    "workspace": "C:\\Users\\ColyerLane\\Documents",
+    "subscription": [
+        "ApexClass",
+        "ApexComponent",
+        "ApexPage",
+        "ApexTrigger",
+        "StaticResource"
+    ]
+}
