@@ -4,6 +4,7 @@
 		<members>Day0Example</members>
 		<members>Day2GitExample</members>
 		<members>Day4CreateAccountsWithContacts</members>
+		<members>Day5Maps</members>
 		<name>ApexClass</name>
 	</types>
 	<version>40.0</version>

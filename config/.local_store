@@ -58,5 +58,21 @@
         "manageableState": "unmanaged",
         "type": "ApexClass",
         "mmState": "clean"
+    },
+    "Day5Maps.cls": {
+        "id": "01p1I000008JXY2QAO",
+        "name": "Day5Maps",
+        "createdDate": "2017-11-01T21:19:18.000+0000",
+        "createdById": "0051I000000qLu0QAE",
+        "namespacePrefix": null,
+        "lastModifiedById": "0051I000000qLu0QAE",
+        "lastModifiedDate": "2017-11-01T22:57:41.000+0000",
+        "fullName": "Day5Maps",
+        "fileName": "unpackaged/classes/Day5Maps.cls",
+        "createdByName": "Lane Colyer",
+        "lastModifiedByName": "Lane Colyer",
+        "manageableState": "unmanaged",
+        "type": "ApexClass",
+        "mmState": "clean"
     }
 }
