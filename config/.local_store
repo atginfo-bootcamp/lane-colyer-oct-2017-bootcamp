@@ -74,5 +74,53 @@
         "manageableState": "unmanaged",
         "type": "ApexClass",
         "mmState": "clean"
+    },
+    "LeadTrigger.trigger": {
+        "id": "01q1I000000a5zAQAQ",
+        "name": "LeadTrigger",
+        "createdDate": "2017-11-01T23:07:29.000+0000",
+        "createdById": "0051I000000qLu0QAE",
+        "namespacePrefix": null,
+        "lastModifiedById": "0051I000000qLu0QAE",
+        "lastModifiedDate": "2017-11-01T23:54:36.000+0000",
+        "fullName": "LeadTrigger",
+        "fileName": "unpackaged/triggers/LeadTrigger.trigger",
+        "createdByName": "Lane Colyer",
+        "lastModifiedByName": "Lane Colyer",
+        "manageableState": "unmanaged",
+        "type": "ApexTrigger",
+        "mmState": "clean"
+    },
+    "ContactTrigger.trigger": {
+        "id": "01q1I000000a9IXQAY",
+        "name": "ContactTrigger",
+        "createdDate": "2017-11-02T21:45:29.000+0000",
+        "createdById": "0051I000000qLu0QAE",
+        "namespacePrefix": null,
+        "lastModifiedById": "0051I000000qLu0QAE",
+        "lastModifiedDate": "2017-11-03T00:00:43.000+0000",
+        "fullName": "ContactTrigger",
+        "fileName": "unpackaged/triggers/ContactTrigger.trigger",
+        "createdByName": "Lane Colyer",
+        "lastModifiedByName": "Lane Colyer",
+        "manageableState": "unmanaged",
+        "type": "ApexTrigger",
+        "mmState": "clean"
+    },
+    "ContactTriggerHelper.cls": {
+        "id": "01p1I000009H11tQAC",
+        "name": "ContactTriggerHelper",
+        "createdDate": "2017-11-02T21:46:26.000+0000",
+        "createdById": "0051I000000qLu0QAE",
+        "namespacePrefix": null,
+        "lastModifiedById": "0051I000000qLu0QAE",
+        "lastModifiedDate": "2017-11-03T00:01:45.000+0000",
+        "fullName": "ContactTriggerHelper",
+        "fileName": "unpackaged/classes/ContactTriggerHelper.cls",
+        "createdByName": "Lane Colyer",
+        "lastModifiedByName": "Lane Colyer",
+        "manageableState": "unmanaged",
+        "type": "ApexClass",
+        "mmState": "clean"
     }
 }
