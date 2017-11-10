@@ -22,15 +22,23 @@ private class ContactTriggerHelperTest {
 
 		List<Account> queriedAccts = [SELECT Id, Name
 									FROM Account
-									WHERE Name LIKE :accountName];
+									WHERE Name LIKE :accountName + '%'
+									];
+
 
 		List<Contact> createContacts = new List<Contact>();
-
+		
+		
+		
 		for(Account acct : queriedAccts){
+			Integer numberOfContacts = (Integer)(Math.random() * 4);
+			for(Integer i =0; i<numberOfContacts; i++){
 			Contact currContact = new Contact();
-			currContact.LastName = acct.Name;
+			currContact.LastName = 'Test Boid';
 			currContact.AccountId = acct.Id;
 			createContacts.add(currContact);
+
+			}
 		}
 
 		insert createContacts;
@@ -39,6 +47,16 @@ private class ContactTriggerHelperTest {
 
 	@isTest static void test_method_one() {
 		// Implement test code
+		stageData(10, 'Lane');
+
+		List<Account> accountList = [
+		SELECT Id, Name, Current_Number_of_Contacts__c,
+		(SELECT LastName, AccountId FROM Contacts)
+		FROM Account
+		];
+
+		System.assertEquals(accountList.size(), 10, 'You did not insert 10 accounts');
+
 
 	}
 	
