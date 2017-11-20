@@ -6,7 +6,9 @@
 		<members>Day4CreateAccountsWithContacts</members>
 		<members>Day5Maps</members>
 		<members>ContactTriggerHelper</members>
-		<members>LeadTriggerHelper</members>
+		<members>ApexBootcampUnitTest</members>
+		<members>ContactTriggerHelperTest</members>
+		<members>Person</members>
 		<name>ApexClass</name>
 	</types>
 	<types>

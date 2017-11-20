@@ -138,5 +138,21 @@
         "manageableState": "unmanaged",
         "type": "ApexClass",
         "mmState": "clean"
+    },
+    "Person.cls": {
+        "id": "01p1I00000BGeCbQAL",
+        "name": "Person",
+        "createdDate": "2017-11-17T19:14:21.000+0000",
+        "createdById": "0051I000000qLu0QAE",
+        "namespacePrefix": null,
+        "lastModifiedById": "0051I000000qLu0QAE",
+        "lastModifiedDate": "2017-11-20T05:04:07.000+0000",
+        "fullName": "Person",
+        "fileName": "unpackaged/classes/Person.cls",
+        "createdByName": "Lane Colyer",
+        "lastModifiedByName": "Lane Colyer",
+        "manageableState": "unmanaged",
+        "type": "ApexClass",
+        "mmState": "clean"
     }
 }
