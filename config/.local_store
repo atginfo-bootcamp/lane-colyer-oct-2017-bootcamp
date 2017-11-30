@@ -320,5 +320,21 @@
         "manageableState": "unmanaged",
         "type": "ApexClass",
         "mmState": "clean"
+    },
+    "Day15DynamicSOQL.cls": {
+        "id": "01p1I00000D16mXQAR",
+        "name": "Day15DynamicSOQL",
+        "createdDate": "2017-11-30T00:36:33.000+0000",
+        "createdById": "0051I000000qLu0QAE",
+        "namespacePrefix": null,
+        "lastModifiedById": "0051I000000qLu0QAE",
+        "lastModifiedDate": "2017-11-30T00:46:40.000+0000",
+        "fullName": "Day15DynamicSOQL",
+        "fileName": "unpackaged/classes/Day15DynamicSOQL.cls",
+        "createdByName": "Lane Colyer",
+        "lastModifiedByName": "Lane Colyer",
+        "manageableState": "unmanaged",
+        "type": "ApexClass",
+        "mmState": "clean"
     }
 }
