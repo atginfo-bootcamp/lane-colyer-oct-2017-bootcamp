@@ -1,0 +1,86 @@
+<apex:page showHeader="true" sidebar="true" controller="AccountAndOppCreatorController">
+	<apex:sectionHeader title="Create account with related" subtitle="Account/Contact/Opportunity" />
+
+	<apex:form>
+
+	<apex:actionFunction
+			action="{!createData}"
+			reRender="input-data, output-data"
+			name="Create Data"
+			>
+
+	</apex:actionFunction>
+
+
+	<apex:pageBlock title="Input Data" tabstyle="Account" id="input-data">
+		<apex:pageMessages/>
+
+		<apex:pageBlockButtons location="top">
+			<apex:commandButton
+			action="{!createData}"
+			value="Create Data"
+			/>
+
+			<!-- <apex:inputText value="{!numAccounts}" Label="Number of Accounts"/> -->
+
+
+		</apex:pageBlockButtons>
+		<apex:pageBlockSection title="Account" columns="1">
+			<apex:inputField value="{!account.Name}"/>
+			<apex:inputField value="{!account.AccountNumber}" required="True"/>
+			<apex:inputField value="{!account.Description}"/>
+			<apex:inputField value="{!account.Type}" required="True"/>
+
+		</apex:pageBlockSection>
+
+		<apex:pageBlockSection title="Contact" columns="1">
+			<apex:inputField value="{!contact.FirstName}" />
+			<apex:inputField value="{!contact.LastName}"/>
+			<apex:inputField value="{!contact.Title}"/>
+ 		</apex:pageBlockSection>
+
+		<apex:pageBlockSection title="Opportunity" columns="1">
+			<apex:inputField value="{!opportunity.Name}"/>
+			<apex:inputField value="{!opportunity.Type}"/>
+			<apex:inputField value="{!opportunity.StageName}"/>
+			<apex:inputField value="{!opportunity.CloseDate}"/>
+
+		</apex:pageBlockSection>
+ 
+
+	</apex:pageBlock>\
+
+<apex:outputPanel  id="output-data">
+	<apex:pageBlock title="Output Data" tabstyle="Account" rendered="{!rendered}">
+
+			<apex:pageBlockSection title="Account" columns="1">
+				<apex:outputField value="{!oldAccount.Name}"/>
+				<apex:outputField value="{!oldAccount.AccountNumber}"/>
+				<apex:outputField value="{!oldAccount.Description}"/>
+				<apex:outputField value="{!oldAccount.Type}"/>
+
+			</apex:pageBlockSection>
+
+			<apex:pageBlockSection title="Contact" columns="1">
+				<apex:outputField value="{!oldContact.FirstName}" />
+				<apex:outputField value="{!oldContact.LastName}"/>
+				<apex:outputField value="{!oldContact.Title}"/>
+	 		</apex:pageBlockSection>
+
+			<apex:pageBlockSection title="Opportunity" columns="1">
+				<apex:outputField value="{!oldOpportunity.Name}"/>
+				<apex:outputField value="{!oldOpportunity.Type}"/>
+				<apex:outputField value="{!oldOpportunity.StageName}"/>
+				<apex:outputField value="{!oldOpportunity.CloseDate}"/>
+
+			</apex:pageBlockSection>
+	 
+
+		</apex:pageBlock>\
+
+	</apex:outputPanel>
+
+
+
+	</apex:form>
+</apex:page>
